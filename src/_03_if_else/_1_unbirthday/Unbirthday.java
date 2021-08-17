@@ -10,8 +10,7 @@ public class Unbirthday {
 		// TODO Auto-generated method stub
 Date date = new Date();
 String currentDate = (date.getMonth() + 1) + "/" + (date.getDay()+1);
-String input = JOptionPane.showInputDialog("When is your birthday?");
-
+String input = JOptionPane.showInputDialog("When is your birthday? (Answer in #/# form.)");
 if (input.equalsIgnoreCase(currentDate)) {
 	JOptionPane.showMessageDialog(null, "Happy Birthday!");
 }
